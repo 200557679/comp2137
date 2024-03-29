@@ -1,6 +1,6 @@
 ---Host/Student info----
 Running on generic-vm at Thu 28 Mar 2024 10:33:24 PM EDT
-Run by student - ()
+Run by student - (200557679)
 30474c1520d0baf05518d236f93c2bbc  ./check-assign2-script.sh
 ------------------------
 
