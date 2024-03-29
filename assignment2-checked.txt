@@ -1,0 +1,37 @@
+---Host/Student info----
+Running on generic-vm at Thu 28 Mar 2024 10:33:24 PM EDT
+Run by student - ()
+30474c1520d0baf05518d236f93c2bbc  ./check-assign2-script.sh
+------------------------
+
+---Start of Assignment2.sh Check------
+---Running makecontainers.sh----------
+Deleting any existing target containers
+Deleting any existing openwrt container
+Network lan deleted
+Network mgmt deleted
+Checking for sudo
+sudo access ok
+Adding hostvm to /etc/hosts file if necessary
+Network lan created
+Network mgmt created
+Creating server1
+
+Retrieving image: Unpack: 100% (686.67MB/s)
+                                            
+Retrieving image: Unpack: 100% (686.67MB/s)
+                                            
+Starting server1
+Waiting for server1 to complete startup
+Adding SSH host key for server1
+Adding remote admin user 'remoteadmin' to server1
+
+Pushing /var/lib/snapd/hostfs/home/student/.ssh/id_ed25519.pub to /home/remoteadmin/.ssh/id_ed25519.pub: 100% (172.41MB/s)
+                                                                                                                           
+Setting server1 hostname
+Waiting for server1 reboot
+Adding server1 to /etc/hosts file if necessary
+---Retrieving assignment2.sh script---
+Retrieved assignment2 script
+Copied assignment2.sh script to server1
+---assignment2.sh run----
