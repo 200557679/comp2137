@@ -91,6 +91,7 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
+# As per instructions
 # Ignore signals
 trap '' SIGINT SIGTERM SIGHUP
 
@@ -100,12 +101,12 @@ if [ -z "$desiredName" ] && [ -z "$desiredIPAddress" ]; then
     exit 1
 fi
 
-# Update hostname if provided
+# to update ostname if provided
 if [ -n "$desiredName" ]; then
     update_hostname
 fi
 
-# Update IP address if provided
+# COnfigure IP address if provided
 if [ -n "$desiredIPAddress" ]; then
     update_ip
 fi
@@ -116,3 +117,6 @@ if [ -n "$desiredName" ] && [ -n "$desiredIPAddress" ]; then
 fi
 
 exit 0
+
+
+#This script is made robust 
