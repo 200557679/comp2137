@@ -55,13 +55,13 @@ update_hosts() {
     fi
 }
 
-# Initialize variables
+# Initialize variables or setting up variables for the script
 verbose=false
 desiredName="Student"
 desiredIPAddress=""
 laninterface="eth0"  # Change to your LAN interface if different
 
-# Parse command line arguments
+# these are Parse command line arguments
 while [[ $# -gt 0 ]]; do
     case $1 in
         -verbose)

@@ -7,3 +7,5 @@ ssh remoteadmin@server1-mgmt -- /root/configure-host.sh -name loghost -ip 192.16
 ssh remoteadmin@server2-mgmt -- /root/configure-host.sh -name webhost -ip 192.168.16.4 -hostentry loghost 192.168.16.3
 ./configure-host.sh -hostentry loghost 192.168.16.3
 ./configure-host.sh -hostentry webhost 192.168.16.4
+
+#I copied this script from the instructions, provided by you
